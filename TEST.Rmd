@@ -1,6 +1,17 @@
 ---
-title: "R Notebook"
-output: html_notebook
+
+[@liu_examining_2018]
+
+title: "Examining the dynamics of the interaction between the development of creative industries and urban spatial structure by agent-based modelling: A case study of Nanjing, China"
+output:
+  html_notebook: default
+  word_document: default
+  
+author: Helin Liu, Elisabete Silva
+bibliography: 
+ - 123.bib
+
+
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -29,6 +40,9 @@ LondonMapSF <- st_as_sf(LondonMap)
 LondonMapSF <- append_data(LondonMapSF,LondonData, key.shp = "lad15cd", key.data = "New code", ignore.duplicates = TRUE)
 #plot a choropleth
 qtm(LondonMapSF, fill = "% Not Born in UK - 2011")
+
+
+
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
