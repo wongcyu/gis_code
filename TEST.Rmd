@@ -1,17 +1,12 @@
 ---
 
-
-
-title: "Examining the dynamics of the interaction between the development of creative industries and urban spatial structure by agent-based modelling: A case study of Nanjing, China"
+title: Nineteen Years Later
+author: Harry Potter
+date: July 31, 2016
 output:
-  html_notebook: default
-  theme: united
-  word_document: default
-  
-author: Helin Liu, Elisabete Silva
-bibliography: 
- - 123.bib
-
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 
 ---
 
