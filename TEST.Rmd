@@ -1,10 +1,9 @@
 ---
 
-[@liu_examining_2018]
 
 title: "Examining the dynamics of the interaction between the development of creative industries and urban spatial structure by agent-based modelling: A case study of Nanjing, China"
 output:
-  html_notebook: default
+  html_notebook: cerulean
   word_document: default
   
 author: Helin Liu, Elisabete Silva
