@@ -1,12 +1,16 @@
 ---
 
-title: Nineteen Years Later
-author: Harry Potter
-date: July 31, 2016
+title: "Producing Reproducible Research Using RMarkdown and Github"
 output:
-  prettydoc::html_pretty:
+    prettydoc::html_pretty:
     theme: cayman
     highlight: github
+  
+author: Chengyu Wang
+bibliography: 
+ - 123.bib
+
+[@liu_examining_2018]
 
 ---
 
