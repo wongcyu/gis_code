@@ -1,18 +1,17 @@
 ---
-
-title: "Producing Reproducible Research Using RMarkdown and Github"
+title: "This is a test R Markdown"
+author: "Chengyu Wang"
 output:
-    prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
-  
-author: Chengyu Wang
-bibliography: 
- - 123.bib
+  html_notebook: default
+  word_document: default
+bibliography: 123.bib
 
 [@liu_examining_2018]
-
 ---
+
+This is an attempt to try the citr for citing [@liu_examining_2018].
+
+#Literature Cited
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
@@ -44,6 +43,7 @@ qtm(LondonMapSF, fill = "% Not Born in UK - 2011")
 
 
 ```
+
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
