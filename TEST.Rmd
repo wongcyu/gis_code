@@ -1,17 +1,15 @@
 ---
-title: "This is a test R Markdown"
+title: "This is a TEST RMarkdown"
 author: "Chengyu Wang"
+date: "28/10/2018"
 output:
   html_notebook: default
+  html_document:
+    df_print: paged
   word_document: default
 bibliography: 123.bib
-
-[@liu_examining_2018]
 ---
 
-This is an attempt to try the citr for citing [@liu_examining_2018].
-
-#Literature Cited
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
@@ -44,7 +42,16 @@ qtm(LondonMapSF, fill = "% Not Born in UK - 2011")
 
 ```
 
+```{r}
+#plot a choropleth
+qtm(LondonMapSF, fill = "% Not Born in UK - 2011")
+```
+
+
+Here is a reference for a seminal and totally game changing paper by [@liu_examining_2018]. Here is another reference [@rodrigue_geography_2013] that heped me write this post. Once you knit your document into an output file, the references will all stack up alphabetically at the bottom of the file…
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+##Reference 
